@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+}
+
+.container {
+    border-top: 1px solid black;
+    margin-top: 16px;
+    padding-top: 43px;
+    width: 319px;
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    width: 19px;
+    height: 13px;
+}
+
+th {
+    margin-left: 126px;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
