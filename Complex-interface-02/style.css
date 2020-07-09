@@ -1,31 +1,69 @@
 body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-  border-top: 1px solid black;
-  margin-top: 16px;
-  padding-top: 43px;
-  width: 319px;
+    background-color: #f4f7f6;
+    border-top: 1px solid lightgray;
+    width: 319px;;
+}
+
+.header table tr th {
+    text-decoration: none;
+}
+
+.close {
+    text-decoration: none;
+    font-size: 20px;
 }
 
 table {
-  width: 100%;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 img {
-  width: 19px;
-  height: 13px;
+    width: 22px;
+    height: 14px;
+}
+
+.beta {
+    width: 39px;
+    height: 19px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 24px;
 }
 
 th {
-  margin-left: 126px;
-  border-bottom: 1px solid black;
-  border-collapse: collapse;
+    border-bottom: 1px solid lightgray;
+    height: 68px;
+}
+
+th a {
+    color: black;
+    font-size: 13px;
 }
 
 td {
-  border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    height: 65px;
+    font-weight: bold;
+    padding-left: 36px;
 }
+
+.academy {
+    background-color: #a0d4ce;
+}
+
+.footer {
+    height: 117px;
+}
+
 /*# sourceMappingURL=style.css.map */
