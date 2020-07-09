@@ -23,19 +23,13 @@ img {
   border-radius: 8px;
 }
 
-.column1, .column2 {
+.column {
   width: 33.33%;
   float: left;
   text-align: center;
 }
 
-.column3 {
-  width: 33.33%;
-  float: left;
-  text-align: center;
-}
-
-.column1 h4, .column2 h4, .column3 h4 {
+.column h4 {
   width: 280px;
   margin-left: 50px;
 }
