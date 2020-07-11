@@ -1,6 +1,8 @@
 body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .container {
@@ -10,10 +12,14 @@ body {
 }
 
 .header table {
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     width: 100%;
     border-collapse: collapse;
+}
+
+.header table th {
+    text-align: left;
+    padding-left: 30px;
 }
 
 th {
@@ -27,7 +33,7 @@ th a {
 
 .ukf {
     width: 19px;
-    height: 13px;
+    height: 17px;
 }
 
 .close {
@@ -36,13 +42,13 @@ th a {
 }
 
 .content table {
+
     width: 100%;
     border-collapse: collapse;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
 
-td {
+.content table tr td {
     border-bottom: 1px solid lightgray;
     height: 63px;
     padding-left: 36px;
@@ -64,16 +70,20 @@ td {
     margin-right: 24px;
 }
 
-
-
 .footer table {
     width: 100%;
-    height: 118px;
-    font-family: 'Source Sans Pro', sans-serif;
+    height: 117px;
+
     font-weight: 600;
+    margin-left: 37px;
+    line-height: 1.0;
 }
 
-
+.footer p {
+    font-size: 15px;
+    color: gray;
+    font-weight: bold 400;
+}
 
 
 /*# sourceMappingURL=style.css.map */
